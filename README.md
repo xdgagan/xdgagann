@@ -4,7 +4,7 @@
 
 </p>
 
-### 𝐍𝐨𝐢𝐧𝐨𝐢 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐑𝐨𝐛𝐨𝐭 🤖
+## ɴᴏɪɴᴏɪ ᴘʀᴏ ʙᴏᴛ 🤖
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/HYKO-xd/NoinoiRobot?utm_source=github.com&utm_medium=referral&utm_content=HYKO-XD/NoinoiRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/HYKO-XD/NOINOIROBOT/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/BAZIGARXD)
 
@@ -34,16 +34,16 @@ The noinoi bot is the one of the powerdyll and superfast group management bot on
 
 
 
-#### Heroku Deployment 💜
+#### ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ 💜
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/NoinoiRobot)
 
 
-#### Support & Updates 🎑
+#### sᴜᴘᴘᴏʀᴛ & ᴜᴘᴅᴀᴛᴇs ✳️
 
 <a href="https://t.me/CFC_BOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BAZIGARXD"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
-#### Credits 📍
+#### ᴄʀᴇᴅɪᴛs 📍
 ```
 • Saitama - Sawada
 • Kazuko - Heyaaman
