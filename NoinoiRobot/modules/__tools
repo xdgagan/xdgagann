@@ -1,0 +1,30 @@
+__mod_name__ = "Tᴏᴏʟs"
+
+__help__ = """
+𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+
+*Other commands*
+ ❍ /whatanime*:* for making anime video
+ ❍ /kickfools*:* kick deleted accounts
+ ❍ /zombies*:* for cheaking deleted accounts in group
+ ❍ /github*:* for cheak github profile
+ ❍ /fakegen*:* Generates Fake Information
+ ❍ /picgen*:* Generate a fake pic 
+
+*Date-time-Weather*
+ ❍ /time <country code>*:* Gives information about a timezone.
+ ❍ /weather <city>*:* Get weather info in a particular place.
+ ❍ /wttr <city>*:* Advanced weather module, usage same as /weather
+ ❍ /wttr moon*:* Get the current status of moon
+ 
+*Quotly*
+- /q : reply any message with this command to create a sticker.
+
+*Converts*
+ ❍ /encrypt*:* Encrypts The Given Text
+ ❍ /decrypt*:* Decrypts Previously Ecrypted Text
+ ❍ /zip*:* reply to a telegram file to compress it in .zip format
+ ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format
+ 
+ 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
+"""
