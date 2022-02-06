@@ -33,10 +33,11 @@ News channel as at [Noinoi updates](https://t.me/BAZIGARXD)
 <a href="https://t.me/CFC_BOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BAZIGARXD"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ```
-
-SPECIAL THANKS TO CFC-BOTS ⭐
-
+🖤Saitama = Sawada
+🖤Kazuko - Heyaaman
+🖤DaisyX = Inuka
+🖤Phoenix Collosus - Phoenix
 ```
 
 
-𝚕
+
