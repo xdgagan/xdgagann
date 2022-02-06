@@ -20,13 +20,6 @@ News channel as at [Noinoi updates](https://t.me/BAZIGARXD)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/NoinoiRobot)
 
-# Credits 💖
-
-- [bazigar](https://github.com/hyko-xd) ``Dev``
-
-- [Heyaaman](https://github.com/heyaaman) ``Dev``
-
-- [phoenix](https://t.me/phoenixwarmed) ``Network Owner``
 
 ### Support & Updates 🎑
 
