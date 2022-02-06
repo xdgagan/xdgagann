@@ -1,6 +1,6 @@
 <p align="center"><a href="https://t.me/NOINOI_BOT"><img src="https://telegra.ph/file/d22126b9843a46dd05aa0.jpg"></a></p>
 
-    <br><b>𝐍𝐨𝐢𝐧𝐨𝐢 𝐑𝐨𝐛𝐨𝐭 🤖</b><br>
+    𝐍𝐨𝐢𝐧𝐨𝐢 𝐑𝐨𝐛𝐨𝐭 🤖
 
 </p>
 
