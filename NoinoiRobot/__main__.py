@@ -363,16 +363,51 @@ def noi_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Music", callback_data="noi_musics"),
-                  InlineKeyboardButton("Join", callback_data="noi_join"),
-                  InlineKeyboardButton("Auth", callback_data="noi_auth"),],[
-                  InlineKeyboardButton("Blacklist", callback_data="noi_blacklist"),
-                  InlineKeyboardButton("Ping", callback_data="noi_ping"),
-                  InlineKeyboardButton("Lyrics", callback_data="noi_lyrics"),],[
-                  InlineKeyboardButton("<<", callback_data="noi_next"),
-                  InlineKeyboardButton("↪ Back", callback_data="noi_"),
-                  InlineKeyboardButton(">>", callback_data="noi_next"),],[    
-                  InlineKeyboardButton(text="📍 Home", callback_data="noi_back")],]
+                [
+                  [
+                    InlineKeyboardButton("Music", callback_data="noi_musics"),
+                    InlineKeyboardButton("Join", callback_data="noi_join"),
+                    InlineKeyboardButton("Auth", callback_data="noi_auth"),
+                    ],
+                    [
+                    InlineKeyboardButton("Blacklist", callback_data="noi_blacklist"),
+                    InlineKeyboardButton("Ping", callback_data="noi_ping"),
+                    InlineKeyboardButton("Lyrics", callback_data="noi_lyrics"),
+                    ],
+                    [
+                    InlineKeyboardButton("<<", callback_data="noi_next"),
+                    InlineKeyboardButton("📍 Home", callback_data="noi_"),
+                    InlineKeyboardButton(">>", callback_data="noi_next"),
+                    ],]
+            ),
+        )
+        
+     elif query.data == "noi_next":
+        query.message.edit_text(
+            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            f"\n\n❍ Hey this feature has many commands, & this feature is knnown as music command.\n❍ this feature is also help you to manage your group \n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            
+            
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                    InlineKeyboardButton("Theame", callback_data="noi_theame"),
+                    InlineKeyboardButton("Server", callback_data="noi_server"),
+                    InlineKeyboardButton("Song", callback_data="noi_song"),
+                    ],
+                    [
+                    InlineKeyboardButton("Speedtest", callback_data="noi_speed"),
+                    InlineKeyboardButton("Stats", callback_data="noi_stats"),
+                    InlineKeyboardButton("Assistant", callback_data="noi_assist"),
+                    ],
+                    [
+                    InlineKeyboardButton("<<", callback_data="noi_music"),
+                    InlineKeyboardButton("↪ Back", callback_data="noi_"),
+                    InlineKeyboardButton(">>", callback_data="noi_music"),
+                    ],
+                ]
             ),
         )
     elif query.data == "noi_back":
