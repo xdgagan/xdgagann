@@ -362,23 +362,7 @@ def noi_about_callback(update, context):
             text= "❍ Hey this is my music commands you can use in your group. \n\n❍ **POWERD BY NOINOI MUSIC**",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                  [
-                    InlineKeyboardButton("Music", callback_data="noi_musics"),
-                    InlineKeyboardButton("Join", callback_data="noi_join"),
-                    InlineKeyboardButton("Auth", callback_data="noi_auth"),
-                    ],
-                    [
-                    InlineKeyboardButton("Blacklist", callback_data="noi_blacklist"),
-                    InlineKeyboardButton("Ping", callback_data="noi_ping"),
-                    InlineKeyboardButton("Lyrics", callback_data="noi_lyrics"),
-                    ],
-                    [
-                    InlineKeyboardButton("<<", callback_data="noi_next"),
-                    InlineKeyboardButton("📍 Home", callback_data="noi_"),
-                    InlineKeyboardButton(">>", callback_data="noi_next"),
-                    ],]
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Music", callback_data="noi_musics"),InlineKeyboardButton("Join", callback_data="noi_join"),InlineKeyboardButton("Auth", callback_data="noi_auth"),],[InlineKeyboardButton("Blacklist", callback_data="noi_blacklist"),InlineKeyboardButton("Ping", callback_data="noi_ping"),InlineKeyboardButton("Lyrics", callback_data="noi_lyrics"),],[InlineKeyboardButton("<<", callback_data="noi_next"),InlineKeyboardButton("📍 Home", callback_data="noi_back"),InlineKeyboardButton(">>", callback_data="noi_next"),],]
             ),
         )
         
@@ -390,24 +374,7 @@ def noi_about_callback(update, context):
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                    InlineKeyboardButton("Theame", callback_data="noi_theame"),
-                    InlineKeyboardButton("Server", callback_data="noi_server"),
-                    InlineKeyboardButton("Song", callback_data="noi_song"),
-                    ],
-                    [
-                    InlineKeyboardButton("Speedtest", callback_data="noi_speed"),
-                    InlineKeyboardButton("Stats", callback_data="noi_stats"),
-                    InlineKeyboardButton("Assistant", callback_data="noi_assist"),
-                    ],
-                    [
-                    InlineKeyboardButton("<<", callback_data="noi_music"),
-                    InlineKeyboardButton("↪ Back", callback_data="noi_"),
-                    InlineKeyboardButton(">>", callback_data="noi_music"),
-                    ],
-                ]
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Theame", callback_data="noi_theame"),InlineKeyboardButton("Server", callback_data="noi_server"),InlineKeyboardButton("Song", callback_data="noi_song"),],[InlineKeyboardButton("Speedtest", callback_data="noi_speed"),InlineKeyboardButton("Stats", callback_data="noi_stats"),InlineKeyboardButton("Assistant", callback_data="noi_assist"),],[InlineKeyboardButton("<<", callback_data="noi_music"),InlineKeyboardButton("📍 Home", callback_data="noi_back"),InlineKeyboardButton(">>", callback_data="noi_music"),],]
             ),
         )
     elif query.data == "noi_back":
@@ -427,29 +394,9 @@ def noi_about_callback(update, context):
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                    InlineKeyboardButton("Music", callback_data="noi_musics"),
-                    InlineKeyboardButton("Join", callback_data="noi_join"),
-                    InlineKeyboardButton("Auth", callback_data="noi_auth"),
-                    ],
-                    [
-                    InlineKeyboardButton("Blacklist", callback_data="noi_blacklist"),
-                    InlineKeyboardButton("Ping", callback_data="noi_ping"),
-                    InlineKeyboardButton("Lyrics", callback_data="noi_lyrics"),
-                    ],
-                    [
-                    InlineKeyboardButton("<<", callback_data="noi_next"),
-                    InlineKeyboardButton("↪ Back", callback_data="noi_"),
-                    InlineKeyboardButton(">>", callback_data="noi_next"),
-                    ],
-                ]
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Music", callback_data="noi_musics"),InlineKeyboardButton("Join", callback_data="noi_join"),InlineKeyboardButton("Auth", callback_data="noi_auth"),],[InlineKeyboardButton("Blacklist", callback_data="noi_blacklist"),InlineKeyboardButton("Ping", callback_data="noi_ping"),InlineKeyboardButton("Lyrics", callback_data="noi_lyrics"),],[InlineKeyboardButton("<<", callback_data="noi_next"),InlineKeyboardButton("↪ Back", callback_data="noi_"),InlineKeyboardButton(">>", callback_data="noi_next"),],]
             ),
         )
-
-
-        
     elif query.data == "noi_musics":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -467,7 +414,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_music"),]]
             ),
         ) 
-
     elif query.data == "noi_join":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -481,7 +427,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_music"),]]
             ),
         ) 
-
     elif query.data == "noi_auth":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -495,7 +440,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_music"),]]
             ),
         ) 
-
     elif query.data == "noi_blacklist":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -509,7 +453,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_music"),]]
             ),
         ) 
-
     elif query.data == "noi_ping":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -521,7 +464,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_music"),]]
             ),
         ) 
-        
     elif query.data == "noi_lyrics":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -533,7 +475,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_music"), ]]
             ),
         )
-        
     elif query.data == "noi_theame":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -546,7 +487,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_next"),]]
             ),
         )
-        
     elif query.data == "noi_server":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -564,8 +504,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_next"),]]
             ),
         )
-        
-
     elif query.data == "noi_song":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -577,7 +515,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_next"),]]
             ),
         )
-        
     elif query.data == "noi_speed":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -589,7 +526,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_next"),]]
             ),
         )
-        
     elif query.data == "noi_stats":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -601,7 +537,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_next"),]]
             ),
         )
-        
     elif query.data == "noi_assist":
         query.message.edit_text(
             text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
@@ -614,7 +549,6 @@ def noi_about_callback(update, context):
                 [[InlineKeyboardButton(text="↪ Back", callback_data="noi_next"),]]
             ),
         )
-
     elif query.data == "noi_about":
         query.message.edit_text(
             text=f" 🧩 Hear the noinoi page."
@@ -625,18 +559,10 @@ def noi_about_callback(update, context):
             f"\n\n 💡 Powerd by @BAZIGARXD",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [
-                [
-                     InlineKeyboardButton(text="Noinoi's repo 📂", url="https://github.com/hyko-xd/noinoirobot"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Back", callback_data="noi_back"),
-                 
-                 ]
-                ]
+                [[InlineKeyboardButton(text="Noinoi's repo 📂", url="https://github.com/hyko-xd/noinoirobot"),],
+                 [InlineKeyboardButton(text="Back", callback_data="noi_back"),]]
             ),
         )
-
 @run_async
 def Source_about_callback(update, context):
     query = update.callback_query
@@ -662,7 +588,6 @@ def Source_about_callback(update, context):
                 timeout=60,
                 disable_web_page_preview=False,
         )
-
 @run_async
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
@@ -699,7 +624,6 @@ def get_help(update: Update, context: CallbackContext):
             ),
         )
         return
-
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
         module = args[1].lower()
         text = (
@@ -718,7 +642,6 @@ def get_help(update: Update, context: CallbackContext):
 
     else:
         send_help(chat.id, HELP_STRINGS)
-
 
 def send_settings(chat_id, user_id, user=False):
     if user:
@@ -739,7 +662,6 @@ def send_settings(chat_id, user_id, user=False):
                 "Sepertinya tidak ada pengaturan khusus pengguna yang tersedia :'(",
                 parse_mode=ParseMode.MARKDOWN,
             )
-
     else:
         if CHAT_SETTINGS:
             chat_name = dispatcher.bot.getChat(chat_id).title
@@ -759,7 +681,6 @@ def send_settings(chat_id, user_id, user=False):
                 "in a group chat you're admin in to find its current settings!",
                 parse_mode=ParseMode.MARKDOWN,
             )
-
 @run_async
 def settings_button(update: Update, context: CallbackContext):
     query = update.callback_query
@@ -791,7 +712,6 @@ def settings_button(update: Update, context: CallbackContext):
                     ]
                 ),
             )
-
         elif prev_match:
             chat_id = prev_match.group(1)
             curr_page = int(prev_match.group(2))
@@ -805,7 +725,6 @@ def settings_button(update: Update, context: CallbackContext):
                     )
                 ),
             )
-
         elif next_match:
             chat_id = next_match.group(1)
             next_page = int(next_match.group(2))
@@ -819,7 +738,6 @@ def settings_button(update: Update, context: CallbackContext):
                     )
                 ),
             )
-
         elif back_match:
             chat_id = back_match.group(1)
             chat = bot.get_chat(chat_id)
@@ -832,7 +750,6 @@ def settings_button(update: Update, context: CallbackContext):
                 ),
             )
 
-        # ensure no spinny white circle
         bot.answer_callback_query(query.id)
         query.message.delete()
     except BadRequest as excp:
@@ -842,15 +759,12 @@ def settings_button(update: Update, context: CallbackContext):
             "Message can't be deleted",
         ]:
             LOGGER.exception("Exception in settings buttons. %s", str(query.data))
-
-
 @run_async
 def get_settings(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
     user = update.effective_user  # type: Optional[User]
     msg = update.effective_message  # type: Optional[Message]
 
-    # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
             text = "Click here to get this chat's settings, as well as yours."
@@ -874,7 +788,6 @@ def get_settings(update: Update, context: CallbackContext):
 
     else:
         send_settings(chat.id, user.id, True)
-
 
 @run_async
 def donate(update: Update, context: CallbackContext):
@@ -909,11 +822,6 @@ def donate(update: Update, context: CallbackContext):
             update.effective_message.reply_text(
                 "Contact me in PM first to get donation information."
             )
-
-            
-            
-            
-
 def migrate_chats(update: Update, context: CallbackContext):
     msg = update.effective_message  # type: Optional[Message]
     if msg.migrate_to_chat_id:
