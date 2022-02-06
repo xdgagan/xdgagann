@@ -25,7 +25,6 @@ from NoinoiRobot import (
 
 ## ALL PLUGINS IS NOT WORABLE 10% PLUGINS ARE NOT WORKING NOINOI BOT IS UP TO DATE.
 
-from NoinoiRobot.queues import QUEUE
 from pyrogram import Client, filters
 from NoinoiRobot.modules import ALL_MODULES
 from NoinoiRobot.modules.helper_funcs.chat_status import is_user_admin
