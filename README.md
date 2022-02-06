@@ -16,6 +16,18 @@ The Support group can be reached out to at [Noinoin Support](https://t.me/CFC_BO
 
 News channel as at [Noinoi updates](https://t.me/BAZIGARXD)
 
+The noinoi bot is the one of the powerdyll and superfast group management bot on telegram you can use this repo for mak your own bot 90% working plugins in the bot sorry for some plugins are not working we are working on there as soon as possible we will fix it.
+
+## ʜᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ❓
+
+```
+𝟷) ᴏᴘᴇɴ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ғᴏʀᴋ ɪᴛ . 
+𝟸) ᴀғᴛᴇʀ ғᴏʀᴋ ɢᴏ ᴛᴏ ʀᴇᴀᴅᴍᴇ.ᴍᴅ ᴀɴᴅ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴅᴇᴘʟᴏʏ ʙᴜᴛᴛᴏɴ ʟɪᴋɴ. 
+𝟹) ʟɪᴋᴇ ᴍʏ ᴜsᴇʀɴᴀᴍᴇ ɪs ʜʏᴋᴏ-xᴅ ᴘᴀsᴛᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ɪɴ ᴘʟᴀᴄᴇ ᴏғ ᴍʏ ᴜsᴇʀɴᴀᴍᴇ. 
+𝟺) ᴀғᴛᴇʀ ᴛʜᴀᴛ sᴀᴠᴇ ʏᴏᴜʀ sᴇᴛᴛɪɴɢ ᴀɴs ᴅᴇᴘʟᴏʏ ɪᴛ. 
+```
+
+
 #### Heroku Deployment 💜
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/NoinoiRobot)
