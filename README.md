@@ -51,14 +51,3 @@ The noinoi bot is the one of the powerdyll and superfast group management bot on
 • Phoenix Collosus - Phoenix
 • Noinoi - Baziibro
 ```
-
-
-```
-
-- Special thanks to CFC - BOTS for supporting us. ❤
-
-
-```
-
-
-
