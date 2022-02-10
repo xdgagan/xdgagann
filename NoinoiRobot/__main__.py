@@ -559,7 +559,7 @@ def noi_about_callback(update, context):
             f"\n\n 💡 Powerd by @BAZIGARXD",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Noinoi's repo 📂", url="https://github.com/hyko-xd/noinoirobot"),],
+                [[InlineKeyboardButton(text="Noinoi's repo 📂", url="https://github.com/TeamNoinoi/noinoirobot"),],
                  [InlineKeyboardButton(text="Back", callback_data="noi_back"),]]
             ),
         )
